@@ -8,10 +8,10 @@ import json
 import sys
 
 es = Elasticsearch()
-con_key ='XsN14NyGhAMumZ5TCpYwnSnzI'
-con_secret ='3omWnyyBhlZPCNMoBR3GGpXsIzzjCHl4XKfh3gQqxWDXSY5u6G'
-acess_token ='114146024-DqyhbCcLnrefWB1pAVv0533VoDR8E3t1ZMuYpxgZ'
-acess_secret = 'p6E13yqgqRCHuy26UcVLFdIG1F4mWpaMRsfB5kfyzrN0x'
+con_key ='YOUR_KEY'
+con_secret ='YOUR_KEY'
+acess_token ='YOUR_KEY'
+acess_secret = 'YOUR_KEY'
 
 class listener(StreamListener):
     def on_data(self, raw_data):
